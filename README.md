@@ -169,69 +169,44 @@ Short-term actions may include:
 
 The analysis was translated into a single executive dashboard designed for immediate financial clarity.
 
-### Executive Diagnostic Page
+### 1. Executive Diagnostic Page
 
 Purpose:  
 Provide clear visibility into what happened, why it happened, and how severe the financial impact is.
 
 The dashboard includes:
 
-#### KPI Overview (Top Section)
-
-- Revenue (February vs March)
-- Revenue % Change
-- Profit (February vs March)
-- Profit % Change
-- Margin (February vs March)
+#### 2. KPI Overview (Top Section)
 
 This section establishes the magnitude of the issue:
 Revenue growth combined with severe margin collapse.
 
 ---
 
-#### Profit Structure (Waterfall)
-
-Revenue → Cost → Discount → Profit
+#### 3. Profit Structure (Waterfall)
 
 This visual shows how revenue growth was absorbed by:
 
 - Increased cost structure
 - Expanded discount policy
 
-It clearly illustrates the mechanics of profit destruction.
-
 ---
 
-#### Financial Impact
-
-Expected March Profit (if February structure remained)  
-Actual March Profit  
-Profit Lost vs Expected (~18.7k)
+#### 4. Financial Impact
 
 This section quantifies material financial damage and translates margin compression into monetary impact.
 
 ---
 
-#### Margin Collapse Comparison
-
-Bar comparison:
-February Margin vs March Margin
-
-38.6% → 8.2%
+#### 5. Margin Collapse Comparison
 
 This visual isolates the core issue: efficiency deterioration.
 
 ---
 
-#### Margin by Acquisition Channel
+#### 6. Margin by Acquisition Channel
 
 Margin February vs Margin March by channel.
-
-This confirms that:
-
-- Margin compression occurred across all acquisition channels.
-- The issue is systemic, not channel-specific.
-- No single marketing source explains the profit collapse.
 
 ---
 
