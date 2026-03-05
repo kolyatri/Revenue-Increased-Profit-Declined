@@ -208,6 +208,8 @@ This visual isolates the core issue: efficiency deterioration.
 
 Margin February vs Margin March by channel.
 
+<img src="screenshots/dashboard.jpg" width="800"/>
+
 ---
 
 ## What This Case Demonstrates
