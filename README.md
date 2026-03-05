@@ -1,111 +1,107 @@
-# Revenue Growth, Profit Collapse – Unit Economics Diagnostic Case Study
+# Revenue Growth, Profit Collapse – Unit Economics Diagnostic
 
-A full **end-to-end business diagnostic investigation** using **SQL (PostgreSQL)** for structured economic analysis and **Power BI** for executive-level reporting.
+A full end-to-end business investigation using SQL (PostgreSQL) for structured economic analysis and Power BI for executive reporting.
 
-The goal of this project is to investigate:
+This analysis was conducted to investigate a critical divergence:
 
-- revenue growth drivers
-- margin deterioration
-- cost structure changes
-- discount impact
-- segment-level economic performance
+- Revenue increased significantly.
+- Profit declined sharply.
+- Margin collapsed.
 
-using a simulated e-commerce dataset.
-
-This project is designed as a **professional portfolio case** focused on structured KPI decomposition, unit economics thinking, and executive storytelling.
+The objective was to identify the structural drivers of profitability deterioration and provide a clear executive-level recommendation.
 
 ---
 
 ## Business Context
 
-The **CFO** identified that revenue increased significantly in March compared to February.
+In March, revenue increased substantially compared to February.
 
 However:
 
-- Profit declined sharply.
-- Margin collapsed.
+- Profit declined by 68%.
+- Gross margin dropped from 38.6% to 8.2%.
 
-The objective was to:
+The CFO requested a full diagnostic review to determine:
 
-- identify the root cause of profit deterioration
-- quantify the financial impact
-- validate whether the issue was segment-specific or systemic
-- present findings in a clear executive format
-- provide a measurable recommended action
+- Why revenue growth did not translate into profit
+- Whether the issue was segment-specific or systemic
+- What financial impact occurred
+- What corrective actions are required
 
 Available datasets:
 
-- `users.csv`
-- `sessions.csv`
-- `orders.csv`
-- `events.csv`
+- `users`
+- `sessions`
+- `orders`
+- `events`
 
 ---
 
 ## Analytical Framework
 
-Profit was decomposed using a structured business model:
+The investigation was structured around unit economics:
 
 > **Profit = Revenue − Cost − Discount**
 
-The investigation followed a systematic diagnostic approach:
+The analysis followed a systematic diagnostic approach:
 
-1. **KPI validation**
-2. **Profit decomposition**
-3. **Segment validation (channel, country, device)**
-4. **Financial impact quantification**
-5. **Executive framing**
+1. KPI validation  
+2. Profit decomposition  
+3. Segment validation (channel, country, device)  
+4. Financial impact quantification  
+5. Executive framing  
 
-This ensured analysis moved from high-level performance to structural economic root cause.
+This ensured movement from high-level financial outcome to root cause identification.
 
 ---
 
-## Key Findings
+## KPI Validation
 
-- Revenue increased by **52%**
-- Profit declined by **68%**
-- Margin collapsed from **38.6% → 8.2%**
-- Cost ratio increased from **59.9% → 82.3%**
-- Discount ratio increased from **1.5% → 9.5%**
+March vs February:
 
-**Primary issue identified:**
+- Revenue: +52%
+- Profit: −68%
+- Margin: 38.6% → 8.2%
+- Orders increased
+- AOV increased
 
-> **Severe systemic margin compression driven by cost and discount expansion**
-
-Revenue growth was not translating into profitability.
+Revenue growth was confirmed.  
+Profit deterioration was material and structural.
 
 ---
 
 ## Economic Decomposition
 
-Despite higher order volume and increased AOV:
+Despite higher order volume and improved AOV:
 
-- Cost absorbed most of the revenue increase
-- Discount expansion further compressed margins
-- Profitability deteriorated across all performance segments
+- Cost ratio increased from 59.9% to 82.3%
+- Discount ratio increased from 1.5% to 9.5%
+- Margin compressed by over 30 percentage points
 
-The issue was not revenue generation —  
-it was unit economics destruction.
+Revenue expansion was absorbed by cost and discount expansion.
+
+The issue was not demand generation —  
+it was economic structure deterioration.
 
 ---
 
-## Segment Insights
+## Segment Validation
 
 Margin collapse was observed:
 
 - Across all acquisition channels
 - Across all countries
-- Across desktop and mobile devices
+- Across both desktop and mobile devices
 
 Revenue mix remained relatively stable.
 
 This confirms:
 
 - No channel-specific inefficiency
-- No geographic anomaly
-- No device-related issue
+- No regional anomaly
+- No device-related technical issue
 
-The deterioration was **system-wide**, not segment-driven.
+The margin collapse was systemic.
 
 ---
 
@@ -113,13 +109,13 @@ The deterioration was **system-wide**, not segment-driven.
 
 If March had maintained February cost structure:
 
-- Expected Profit ≈ **23.7k**
-- Actual Profit = **5.0k**
-- Estimated Lost Profit ≈ **18.7k**
+- Expected profit ≈ 23.7k
+- Actual profit = 5.0k
+- Estimated lost profit ≈ 18.7k
 
-> Nearly 19k in profit erosion occurred due to structural cost and discount changes.
+Approximately 19k in profit erosion occurred due to structural cost and discount changes within one month.
 
-This quantification confirms material financial damage.
+This represents material financial damage.
 
 ---
 
@@ -127,91 +123,115 @@ This quantification confirms material financial damage.
 
 Profit collapse was primarily driven by:
 
-- Increased cost ratio
-- Expanded discount policy
+- Significant cost inflation
+- Aggressive discount expansion
 
 Not by:
 
 - Traffic decline
-- Conversion issues
+- Conversion drop
 - Revenue contraction
 
-The issue is located in **economic structure**, not demand generation.
+The issue is located in unit economics.
 
 ---
 
 ## Recommended Action
 
-Initiate a structured review of:
+Immediate review required in the following areas:
 
-- Supplier pricing
-- Cost drivers
-- Operational expense changes
-- Promotional and discount policy
+- Supplier pricing and cost drivers
+- Operational expense structure
+- Discount and promotion strategy
 
-Immediate focus should be placed on restoring margin stability.
+Priority objective:
 
-**Target:**
+> Restore margin from ~8% toward historical 35–40% range
 
-> Recover margin from ~8% toward historical ~35–40% range
+Short-term actions may include:
+- Temporary discount tightening
+- Cost structure audit
+- Margin monitoring by segment
 
 ---
 
 ## Tools Used
 
-- **PostgreSQL**
-- **SQL** (CTEs, aggregation, window functions)
-- **Power BI**
-- **DAX measures**
-- **Unit economics framework**
+- PostgreSQL
+- SQL (CTEs, aggregation, window functions)
+- Power BI
+- DAX measures
+- Structured unit economics framework
 
 ---
 
-## Power BI Dashboard
+## Power BI Dashboard Structure
 
-The analysis was translated into a clean executive dashboard designed for rapid stakeholder clarity.
+The analysis was translated into a single executive dashboard designed for immediate financial clarity.
 
-### Page 1 – Executive Diagnostic
+### Executive Diagnostic Page
 
-**Purpose:**  
-Show magnitude, cause, and financial damage.
+Purpose:  
+Provide clear visibility into what happened, why it happened, and how severe the financial impact is.
 
-Includes:
+The dashboard includes:
 
-- KPI summary (Revenue, Profit, Margin)
-- Profit waterfall (Revenue → Cost → Discount → Profit)
-- Margin collapse comparison
-- Financial impact quantification (~18.7k loss)
+#### KPI Overview (Top Section)
 
----
+- Revenue (February vs March)
+- Revenue % Change
+- Profit (February vs March)
+- Profit % Change
+- Margin (February vs March)
 
-### Page 2 – Segment Confirmation
-
-**Purpose:**  
-Validate whether the issue is systemic or segment-specific.
-
-Includes:
-
-- Margin by acquisition channel
-- Margin by country
-- Margin by device
-
-The dashboard was designed with a clear narrative flow:
-
-**Page 1 = What happened + Financial damage**  
-**Page 2 = Where it happened**
+This section establishes the magnitude of the issue:
+Revenue growth combined with severe margin collapse.
 
 ---
 
-## Repository Structure
+#### Profit Structure (Waterfall)
 
-Revenue-Profit-Diagnostic/
-│
-├── data/
-├── sql/
-├── powerbi/
-├── report/
-└── README.md
+Revenue → Cost → Discount → Profit
+
+This visual shows how revenue growth was absorbed by:
+
+- Increased cost structure
+- Expanded discount policy
+
+It clearly illustrates the mechanics of profit destruction.
+
+---
+
+#### Financial Impact
+
+Expected March Profit (if February structure remained)  
+Actual March Profit  
+Profit Lost vs Expected (~18.7k)
+
+This section quantifies material financial damage and translates margin compression into monetary impact.
+
+---
+
+#### Margin Collapse Comparison
+
+Bar comparison:
+February Margin vs March Margin
+
+38.6% → 8.2%
+
+This visual isolates the core issue: efficiency deterioration.
+
+---
+
+#### Margin by Acquisition Channel
+
+Margin February vs Margin March by channel.
+
+This confirms that:
+
+- Margin compression occurred across all acquisition channels.
+- The issue is systemic, not channel-specific.
+- No single marketing source explains the profit collapse.
 
 ---
 
@@ -219,8 +239,7 @@ Revenue-Profit-Diagnostic/
 
 - Structured KPI validation
 - Unit economics decomposition
-- Margin analysis
+- Margin compression analysis
 - Segment confirmation logic
 - Financial impact quantification
-- Executive-level communication
-- Business-oriented storytelling
+- Executive-level business communication
